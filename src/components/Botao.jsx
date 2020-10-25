@@ -23,6 +23,7 @@ export default props => {
             <Button variant="contained" color="secondary">Primary</Button>
             <Button variant="contained" color="disable">Disable</Button>
             <Button variant="contained" color="link">Link</Button>
+            <Button variant="contained" disableElevation color="secondary">Desabilitar elevação</Button>
 
 
 
