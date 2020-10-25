@@ -30,6 +30,26 @@ export default props => {
 
             small - medium - large */}
 
+            <hr />
+
+            <h1>Tamanhos dos botões</h1>
+
+            <h2>Small</h2>
+
+            <Button variant="contained" size="small" color="disable">Small</Button>
+
+            <hr />
+
+            <h2>Medium</h2>
+
+            <Button variant="contained" color="primary" size="medium">Medium</Button>
+
+            <hr />
+
+            <h2>Large</h2>
+
+            <Button variant="contained" color="link" size="large">Large</Button>
+
 
 
         </div>
