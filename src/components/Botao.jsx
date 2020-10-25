@@ -4,6 +4,12 @@ import Button from '@material-ui/core/Button'
 
 export default props => {
 
+    function click() {
+
+        alert('Botão clicado!!')
+
+    }
+
     return (
 
         <div>
@@ -48,7 +54,7 @@ export default props => {
 
             <h2>Large</h2>
 
-            <Button variant="contained" color="link" size="large">Large</Button>
+            <Button variant="contained" color="link" size="large" onClick={click} >Large</Button>
 
 
 
