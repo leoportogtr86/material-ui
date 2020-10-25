@@ -12,6 +12,8 @@ export default props => {
 
             <Button color="secondary" variant="outlined">Botão delineado</Button>
 
+            <Button variant="contained" color="secondary">Botão contido</Button>
+
 
 
         </div>
