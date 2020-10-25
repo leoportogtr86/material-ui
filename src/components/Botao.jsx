@@ -26,6 +26,11 @@ export default props => {
             <Button variant="contained" disableElevation color="secondary">Desabilitar elevação</Button>
 
 
+            {/* tamanhos dos botões - propriedade size
+
+            small - medium - large */}
+
+
 
         </div>
     )
