@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button'
 import DeleteIcon from '@material-ui/icons/Delete'
 import SaveIcon from '@material-ui/icons/Save'
 import CloudUploadIcon from '@material-ui/icons/CloudUpload'
+import KeyboardVoiceIcon from '@material-ui/icons/KeyboardVoice'
 
 
 //https://material-ui.com/pt/components/buttons/
@@ -63,13 +64,15 @@ export default props => {
             <Button variant="contained" color="link" size="large" onClick={click} >Large</Button>
 
             <Button variant="contained" color="secondary" startIcon={<DeleteIcon />}>Deletar</Button>
-            <hr />
+
 
             <Button variant="contained" color="primary" startIcon={<SaveIcon />}>Salvar</Button>
-            <hr />
+
 
             <Button variant="contained" color="secondary" startIcon={<CloudUploadIcon />}>Upload</Button>
 
+
+            <Button variant="contained" color="link" startIcon={<KeyboardVoiceIcon />}>Gravar voz</Button>
         </div>
     )
 }
