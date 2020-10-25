@@ -10,6 +10,10 @@ export default props => {
 
             <Button color="primary">Botão de Texto</Button>
 
+            <Button color="secondary" variant="outlined">Botão delineado</Button>
+
+
+
         </div>
     )
 }
