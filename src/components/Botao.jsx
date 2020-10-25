@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 import DeleteIcon from '@material-ui/icons/Delete'
 import SaveIcon from '@material-ui/icons/Save'
+import CloudUploadIcon from '@material-ui/icons/CloudUpload'
 
 
 //https://material-ui.com/pt/components/buttons/
@@ -65,6 +66,10 @@ export default props => {
             <hr />
 
             <Button variant="contained" color="primary" startIcon={<SaveIcon />}>Salvar</Button>
+            <hr />
+
+            <Button variant="contained" color="secondary" startIcon={<CloudUploadIcon />}>Upload</Button>
+
         </div>
     )
 }
