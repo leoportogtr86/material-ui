@@ -18,6 +18,12 @@ export default props => {
 
             default -  primary - secondary - disable - link */}
 
+            <Button variant="contained" color="default">Default</Button>
+            <Button variant="contained" color="primary">Primary</Button>
+            <Button variant="contained" color="secondary">Primary</Button>
+            <Button variant="contained" color="disable">Disable</Button>
+            <Button variant="contained" color="link">Link</Button>
+
 
 
         </div>
