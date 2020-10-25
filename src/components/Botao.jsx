@@ -14,6 +14,10 @@ export default props => {
 
             <Button variant="contained" color="secondary">Botão contido</Button>
 
+            {/* cores dos botões
+
+            default -  primary - secondary - disable - link */}
+
 
 
         </div>
