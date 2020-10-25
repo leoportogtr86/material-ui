@@ -4,6 +4,7 @@ import DeleteIcon from '@material-ui/icons/Delete'
 import SaveIcon from '@material-ui/icons/Save'
 import CloudUploadIcon from '@material-ui/icons/CloudUpload'
 import KeyboardVoiceIcon from '@material-ui/icons/KeyboardVoice'
+import Icon from '@material-ui/core/Icon'
 
 
 //https://material-ui.com/pt/components/buttons/
@@ -73,6 +74,8 @@ export default props => {
 
 
             <Button variant="contained" color="link" startIcon={<KeyboardVoiceIcon />}>Gravar voz</Button>
+            <Button variant="contained" color="secondary" endIcon={<Icon>send</Icon>}>Enviar</Button>
+
         </div>
     )
 }
