@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
-import { DeleteIcon } from '@material-ui/icons/Delete'
+import DeleteIcon from '@material-ui/icons/Delete'
 
 //https://material-ui.com/pt/components/buttons/
 
@@ -59,7 +59,7 @@ export default props => {
 
             <Button variant="contained" color="link" size="large" onClick={click} >Large</Button>
 
-
+            <Button variant="contained" color="secondary" startIcon={<DeleteIcon />}>Deletar</Button>
 
         </div>
     )
