@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import DeleteIcon from '@material-ui/icons/Delete'
-import Save from '@material-ui/icons/Save'
+import SaveIcon from '@material-ui/icons/Save'
 
 
 //https://material-ui.com/pt/components/buttons/
@@ -64,7 +64,7 @@ export default props => {
             <Button variant="contained" color="secondary" startIcon={<DeleteIcon />}>Deletar</Button>
             <hr />
 
-            <Button variant="contained" color="primary" startIcon={<Save />}>Salvar</Button>
+            <Button variant="contained" color="primary" startIcon={<SaveIcon />}>Salvar</Button>
         </div>
     )
 }
